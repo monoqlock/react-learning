@@ -1,0 +1,31 @@
+{
+  "name": "qiita-react-js-tutorial",
+  "version": "1.0.0",
+  "description": "tutorial of react ( https://qiita.com/TsutomuNakamura/items/72d8cf9f07a5a30be048 )",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base src --mode development --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monoqlock/react-learning.git"
+  },
+  "author": "monoqlock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monoqlock/react-learning/issues"
+  },
+  "homepage": "https://github.com/monoqlock/react-learning#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
